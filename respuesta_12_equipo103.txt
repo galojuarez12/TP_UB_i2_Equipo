@@ -1,3 +1,15 @@
 Integrantes Matias Gomez Paratcha, Axel Galo Romero Juarez
 c-No tenemos gamma en nuestro equipo pero si podria sin problema ​​
-d-No se pierden, se pueden ver los cambios realizados si deseas dentro de la pagina de Github
+d-No se pierden, se pueden ver los cambios realizados si deseas dentro de la pagina de GitHub
+
+e- Comandos paso a paso:
+	1- Beta crea repositorio
+	2- Alfa realiza fork del repositorio de Beta
+	3- Beta realiza clone de su repositorio remoto en su maquina local
+	4- Beta crea en el local un nuevo archivo y realiza git add, git commit y git push para llevarlo a su reposotorio remoto
+	5- Alfa realiza clone del repositorio forkeado, crea rama local ajuste-alfa, modifica 2da linea del archivo fork (git branch ajuste-alfa), realiza git add, git commit y git push para llevarlo a su remoto
+	6- Beta crea en su repositorio un archivo respuesta_I2_Equipo103 y responde preguntas, realiza git add, git commit, git push para subir las respuestas a su repositorio
+	7-Alfa ejecuta git remote add upstream https://github.com/galojuarez12/TP_UB_i2_Equipo.git para obtener los ultimos cambios realizados por Beta en su local
+	8- Modifica el archivo respuestas, realiza merge entre rama ajsute y main (git merge main desde ajuste)
+	9- git branch -D ajuste-alfa para eliminar rama modificaciones ya que esta con los mismos datos que la main
+	10- realiza pull request para que Beta tenga los cambios realizados por Alfa
