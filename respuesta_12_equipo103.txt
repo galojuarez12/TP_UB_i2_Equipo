@@ -1,5 +1,7 @@
 Integrantes Matias Gomez Paratcha, Axel Galo Romero Juarez
-c-No tenemos gamma en nuestro equipo pero si podria sin problema ​​
+a- Se actualiza configurando el repositorio original como "upstream" y usando git fetch y git merge.
+b- Sí, se puede actualizar el fork al estado de otro compañero agregando su repositorio como un "remote".
+c- si sin problema ​​
 d-No se pierden, se pueden ver los cambios realizados si deseas dentro de la pagina de GitHub
 
 e- Comandos paso a paso:
